@@ -39,15 +39,15 @@
         </div>
       </nav>
       <div class="row">
-        <div class="imgdiv col-md-4 col-sm-12">
+        <div class="imgdiv col-lg-4">
           <img src="Images/mail.png" alt="mail-pic" class="img1">
           <br><br>
           <p class="p1">"<i>Service Before Self </i>"</p><br>
           <p><i>Only one mail away </i>!!</p><br>
-          <p class="p1"><i>Best in the business </i>.</p>
+          <p class="p2"><i>Best in the business </i>.</p>
         </div>
-        <div class="col-md-8 col-sm-12 mail">
-          <form action="mailto:mdfarhansajid1111@gmail.comheritageit.edu.in" method="post" enctype="text/plain">
+        <div class="col-lg-8 mail">
+          <form action="mailto:mdfarhansajid1111@gmail.comheritageit.edu.in" method="post" enctype="text/plain" id="form">
             <div class="imgdiv">
               <img src="Images/contactme.jpg" class="formimg" alt="form-img">
             </div>
@@ -91,16 +91,34 @@
               <label>Preferred way to contact </label>
               <div class="question-answer">
                 <div>
-                  <input type="radio" value="none" id="radio_4" name="contact"/>
+                  <input type="radio" value="Phone" id="radio_4" name="Mode of contact"/>
                   <label for="radio_4" class="radio"><span>Phone</span></label>
                 </div>
                 <div>
-                  <input  type="radio" value="none" id="radio_5" name="contact"/>
+                  <input  type="radio" value="Email" id="radio_5" name="Mode of contact"/>
                   <label for="radio_5" class="radio"><span>Email</span></label>
                 </div>
                 <div>
-                  <input  type="radio" value="none" id="radio_6" name="contact"/>
+                  <input  type="radio" value="Any" id="radio_6" name="Mode of contact"/>
                   <label for="radio_6" class="radio"><span>Any</span></label>
+                </div>
+              </div>
+            </div>
+
+            <div class="question">
+              <label>Plans you choose: </label>
+              <div class="question-answer">
+                <div>
+                  <input type="radio" value="Good" id="radio_7" name="Plan"/>
+                  <label for="radio_7" class="radio"><span>Good</span></label>
+                </div>
+                <div>
+                  <input type="radio" value="Better" id="radio_8" name="Plan"/>
+                  <label for="radio_8" class="radio"><span>Better</span></label>
+                </div>
+                <div>
+                  <input type="radio" value="Best" id="radio_9" name="Plan"/>
+                  <label for="radio_9" class="radio"><span>Best</span></label>
                 </div>
               </div>
             </div>
