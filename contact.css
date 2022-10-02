@@ -185,7 +185,7 @@ textarea {
 }
 
 .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
-  color:  #669999;
+  color:  #000000;
 }
 
 .item input:hover, .item select:hover, .item textarea:hover {
@@ -264,7 +264,7 @@ label.radio:before {
 }
 
 input[type=radio]:checked + label:before, label.radio:hover:before {
-  border: 2px solid  #669999;
+  border: 2px solid  #000000;
 }
 
 label.radio:after {
@@ -274,7 +274,7 @@ label.radio:after {
   left: 5px;
   width: 8px;
   height: 4px;
-  border: 3px solid  #669999;
+  border: 3px solid  #000000;
   border-top: none;
   border-right: none;
   transform: rotate(-45deg);
