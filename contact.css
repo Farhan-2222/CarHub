@@ -147,7 +147,7 @@ body, div, form, input, select, textarea, label, p {
   outline: none;
   font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
-  color: #666;
+  color: #000000;
   line-height: 22px;
 }
 
@@ -385,12 +385,5 @@ button:hover {
 @media (max-width: 1240px) and (min-width: 991px) {
   ul {
     list-style: none;
-  }
-}
-
-@media (max-width: 991px) {
-  .collapse ul{
-    background-color: black;
-    caret-color: black;
   }
 }
