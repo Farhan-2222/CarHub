@@ -373,12 +373,12 @@ button:hover {
   }
 
   .name-item div input {
-    width:97%;
+    width : 97%;
   }
 
   .name-item div label {
-    display:block;
-    padding-bottom:5px;
+    display : block;
+    padding-bottom : 5px;
   }
 }
 
