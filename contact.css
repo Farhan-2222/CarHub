@@ -1,20 +1,20 @@
 
 
 body {
-  font-family: "Montserrat";
-  background-image: linear-gradient(to top, #0cb3aa, #35c1ba, #4ecfca, #64deda, #78ecea, #79ebef, #7beaf4, #7ee9f8, #74d8f1, #6ec7e8, #6bb6de, #6ba5d1);
+  font-family : "Montserrat";
+  background-image : linear-gradient(to top, #0cb3aa, #35c1ba, #4ecfca, #64deda, #78ecea, #79ebef, #7beaf4, #7ee9f8, #74d8f1, #6ec7e8, #6bb6de, #6ba5d1);
 }
 
 a {
-  text-decoration: none;
-  margin: 0 0.5rem;
+  text-decoration : none;
+  margin : 0 0.5rem;
 }
 
 h4 {
-  padding: 0;
-  display: inline-block;
-  background-color: #256D85;
-  color: #fff;
+  padding : 0;
+  display : inline-block;
+  background-color : #256D85;
+  color : #fff;
 }
 
 .container-fluid {
