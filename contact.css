@@ -18,40 +18,40 @@ h4 {
 }
 
 .container-fluid {
-  padding: 0;
+  padding : 0;
 }
 
 
 /* Navigation Bar */
 
 .navbar {
-  padding-right: 0.8rem;
+  padding-right : 0.8rem;
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: #FFFFFF;
-  padding-left: 1.5%;
+  font-family : "Ubuntu";
+  font-size : 2.2rem;
+  font-weight : bold;
+  color : #FFFFFF;
+  padding-left : 1.5%;
 }
 
 .custom-toggler .navbar-toggler-icon {
-            background-image: url(
+            background-image : url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225, 255, 238, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: #E1FFEE;
+  border-color : #E1FFEE;
 }
 
 .custom-toggler .navbar-toggler-icon:hover {
-            background-image: url(
+            background-image : url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(76, 103, 147, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler:hover {
-  border-color: #2192FF;
+  border-color : #2192FF;
 }
 
 .navbar-nav {
