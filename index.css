@@ -18,9 +18,12 @@ h2 {
 
 /* Navigation Bar */
 
-.navbar {
-  padding: 0;
-  z-index: 10;
+#title{
+  width: 98.7vw;
+}
+
+#title .navbar, #title .row{
+  width: 99.7vw;
 }
 
 .navbar-brand {
@@ -348,5 +351,39 @@ h2 {
   #title {
     text-align: center;
   }
+}
 
+@media (max-width: 550px) {
+  .Welcome{
+    font-size: 10vw;
+  }
+
+  /* #title {
+    width: vw;
+  } */
+
+  #pricing{
+    padding: 0 30px;
+  }
+  #pricing h2, #cta h3{
+    text-align: left;
+    font-size: 9vw;
+  }
+
+  #testimonials h2{
+    font-size: 7vw;
+    text-align: justify;
+  }
+
+  .cta-text {
+    margin: 0 20px;
+  }
+
+  #cta{
+    padding: 40px 0 30px;
+  }
+
+  button.btn-lg{
+    font-size: 4vw;
+  }
 }
