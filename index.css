@@ -369,6 +369,10 @@ h2 {
     text-align: left;
     font-size: 9vw;
   }
+	
+  #testimonials{
+    padding-top: 20px;
+  }
 
   #testimonials h2{
     font-size: 7vw;
